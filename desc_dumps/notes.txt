@@ -1,0 +1,18 @@
+SonyPS4 - Beagle - DS4
+SonyPS4 - Beagle - MayFlash Magic S Pro
+SonyPS4 - Beagle - Trinket M0
+    VID/PID=0x0f0d/0x00ee (Mini4) 
+
+SonyPS4 - Beagle - USB hub 1.1 - Hori Mini4
+
+SonyPS4 - MayFlash Magic S Pro - Beagle - DS4
+SonyPS4 - MayFlash Magic S Pro - Beagle - Trinket M0
+    VID/PID=0x0f0d/0x00ee (Mini4) 
+
+SonyPS4 - MayFlash Magic S Pro - Beagle - USB hub 1.1 - Hori Mini4????
+
+SonyPS4 - MayFlash Magic S Pro - Hori Mini4 works!
+
+SonyPS4 - Beagle - MayFlash Magic S Pro - DS4Gadget - PC - ds4gamepad_hori_mini4py
+
+
