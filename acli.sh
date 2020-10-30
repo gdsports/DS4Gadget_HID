@@ -58,6 +58,6 @@ find ${ARDUINO_DIRECTORIES_DATA} -name USBDesc.h -print0 | xargs -0 sed -i 's/^#
 find ${ARDUINO_DIRECTORIES_DATA} -name USBCore.cpp -print0 | xargs -0 sed -i -e 's/bool _cdcComposite.*;/bool _cdcComposite = false;/;/if (setup.wLength == 8)/i #ifdef CDC_ENABLED' -e '/_cdcComposite = 1/a #endif'
 # Compile all examples for all boards
 BOARDS=('adafruit:samd:adafruit_trinket_m0' 'adafruit:samd:adafruit_itsybitsy_m0' 'adafruit:samd:adafruit_itsybitsy_m4')
-#build_all viddefault >error_viddefault 2>&1
+build_all viddefault >error_viddefault 2>&1
 # Use Dual Shock 4 VID/PID
-build_all vidds4 "--verbose --build-properties build.vid=0x054c,build.pid=0x09cc"  >error_vidds4 2>&1
+build_all vidds4 "--build-properties build.vid=0x054c,build.pid=0x09cc"  >error_vidds4 2>&1
